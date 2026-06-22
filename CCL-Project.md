@@ -151,8 +151,6 @@ ggplot(pca, aes(PC1, PC2, color = win_pct)) +
   theme_minimal()
 ```
 
-<img src="CCL-Project_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
-
 The scatterplot shows substantial clustering, with players exhibiting more dominant first serves outcomes and greater overall dependability generally achieving higher win percentages.
 
 To quantify the relationship with match outcomes, I regress win percentage on PC1 and PC2.
