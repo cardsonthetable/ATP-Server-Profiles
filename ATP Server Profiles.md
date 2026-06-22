@@ -150,6 +150,7 @@ ggplot(pca, aes(PC1, PC2, color = win_pct)) +
        title = "Serve Styles and Match Success on the ATP Tour") +
   theme_minimal()
 ```
+(See Serve Styles & Match Success.png)
 
 The scatterplot shows substantial clustering, with players exhibiting more dominant first serves outcomes and greater overall dependability generally achieving higher win percentages.
 
