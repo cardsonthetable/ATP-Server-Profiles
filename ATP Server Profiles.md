@@ -10,7 +10,7 @@ geometry: margin = 1in
 ---
 # Introduction
 
-The ATP Tour represents the highest level of professional men's tennis where small differences in serve performance can significantly influence match outcomes. While serve ability is often summarized for the average fan with ace counts or serve speed, in reality, it consists of multiple correlated components. This write-up analyzes serve ability using match-level data from the ATP Tour between 2020 and 2024. I will utilize Principal Components Analysis (PCA) to create various server profiles and determine whether differences in those profiles are meaningfully related to players' match win percentages.
+The ATP Tour represents the highest level of professional men's tennis where small differences in serve performance can significantly influence match outcomes. While serve ability is often summarized for the average fan with ace counts or serve speed, in reality, it consists of multiple correlated components. This write-up analyzes serve ability using match-level data from the ATP Tour between 2020 and 2024. I will utilize Principal Component Analysis (PCA) to create various server profiles and determine whether differences in those profiles are meaningfully related to players' match win percentages.
 
 
 
@@ -81,7 +81,7 @@ I aggregate raw totals of various serve metrics across each player’s matches b
 
 # PCA of Serve Metrics
 
-Because the serve metrics are highly correlated, I use Principal Components Analysis to reduce dimensionality and build serve profiles.
+Because the serve metrics are highly correlated, I use Principal Component Analysis to reduce dimensionality and build serve profiles.
 
 
 ```r
