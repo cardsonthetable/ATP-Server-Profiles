@@ -2,7 +2,7 @@
 title: "Serve Profiles on the ATP Tour (2020–2024)"
 date: "March 6, 2025"
 author: "Isaac Stiepleman"
-output: pdf_document
+output: html_document
 fontsize: 11pt
 geometry: margin = 1in
 ---
